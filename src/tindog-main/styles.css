@@ -1,0 +1,231 @@
+/* dlaczego marfin-left bootstrapowe nie działa */
+/* jak ściąć obraz?  */
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+h2 {
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+  position: relative;
+  padding-bottom: 2%;
+}
+
+.container-fluid {
+  padding: 0 14%;
+  padding-top: 2%;
+}
+
+/* Navigation Bar */
+
+#navbar-container {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-nav {
+  margin-left: auto;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+  font-size: 2.5rem;
+}
+
+.nav-item {
+  padding: 0 0 0 18px;
+}
+
+.nav-link {
+  font-weight: 100;
+  font-size: 1.2rem;
+}
+
+
+/* DOWNLOAD BUTTONS */
+.btn-own-style {
+  margin: 10% 5% 10% 0;
+  font-weight: 600;
+}
+
+/* IMG */
+#dog {
+  transform: rotate(25deg);
+  width: 300px;
+  margin: 0 6% 10%;
+  position: absolute;
+  z-index: 0;
+}
+
+
+
+/* GOALS SECTION */
+#features {
+  padding: 10% 12%;
+  text-align: center;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.goals {
+  padding: 4%;
+}
+
+/* icon goals */
+.icon-goals {
+  font-size: 4rem;
+  margin-bottom: 6%;
+  color: #ef8172;
+}
+
+.icon-goals:hover {
+  color: #ff4c68;
+}
+
+/* h3 goals */
+.goals-h3 {
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+
+/* p goals */
+.goals-p {
+  color: #8f8f8f;
+}
+
+/* TESTIMONIALS SECTION */
+#testimonials {
+  background-color: #ef8172;
+  color: #fff;
+  text-align: center;
+}
+
+/* strzałki z boku */
+.carousel-item {
+  padding: 10% 12%;
+}
+
+/* testimonial h2 */
+.testimonial-h2 {
+  background-color: #ef8172;
+  color: #fff;
+  text-align: center;
+}
+
+.testimonial-dog {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* testimonial press */
+#press {
+  text-align: center;
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 12%;
+  margin: 20px 50px 50px;
+}
+
+/* PRICING SECTION */
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.card-body {
+  height: 250px;
+}
+
+.card-footer {
+  border: none;
+  background-color: #fff;
+  padding: 15px;
+}
+
+.center-text-card {
+  padding: 21px;
+}
+
+.p-margin-0 {
+  margin-bottom: 0;
+}
+
+/* CTA SECTION */
+#cta {
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: center;
+  padding: 10% 17% 5%;
+}
+
+.cta-h3 {
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.last-btn {
+  margin: 5% 1%;
+  font-weight: 600;
+}
+
+/* FOOTER SECTION */
+#footer {
+  text-align: center;
+  padding: 6%;
+}
+
+.icon-footer {
+  padding: 1% 1% 2%;
+}
+
+
+/* MOBILE VERSION */
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  #dog {
+    position: static;
+    transform: rotate(0);
+  }
+}
