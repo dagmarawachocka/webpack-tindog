@@ -1,6 +1,6 @@
 const form = document.getElementById("form");
 
-form.addEventListener("submit", event => {
+form!.addEventListener("submit", event => {
     event.preventDefault();
 
     printNameResults();
@@ -23,7 +23,7 @@ function printGenderResult() {
 
     for (let i = 0; i < radioGender.length; i++) {
         if ((radioGender[i] as HTMLInputElement).checked) {
-            return console.log(`Płeć: ${(radioGender[i] as HTMLInputElement).nextElementSibling.innerHTML}`);
+            return console.log(`Płeć: ${(radioGender[i] as HTMLInputElement).nextElementSibling!.innerHTML}`);
         }
     }
 }
@@ -55,7 +55,7 @@ function printHobbyResult() {
 
     for (let i = 0; i < hobbyInputs.length; i++) {
         if ((hobbyInputs[i] as HTMLInputElement).checked) {
-            hobbyArray.push((hobbyInputs[i] as HTMLInputElement).nextElementSibling.innerHTML);
+            hobbyArray.push((hobbyInputs[i] as HTMLInputElement).nextElementSibling!.innerHTML);
 
         }
     }
